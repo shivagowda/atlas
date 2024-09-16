@@ -86,7 +86,7 @@ public final class Atlas {
         Options options = new Options();
         Option opt;
 
-        opt = new Option(APP_PATH, true, "Application Path");
+        opt = new Option(APP_PATH, true, "Application  Path");
         opt.setRequired(false);
         options.addOption(opt);
 
