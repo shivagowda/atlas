@@ -33,7 +33,7 @@ public class TestUtils {
     }
 
     public static void writeConfiguration(PropertiesConfiguration configuration, String fileName) throws Exception {
-        LOG.debug("Storing configuration in file {}", fileName);
+        LOG.debug("Storing configuration  in file {}", fileName);
         File file = new File(fileName);
         File parentFile = file.getParentFile();
         if (!parentFile.exists() && !parentFile.mkdirs()) {
