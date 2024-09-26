@@ -31,7 +31,7 @@ public class AttributeToken implements TemplateToken {
     public String eval(AtlasEntity entity) throws AtlasBaseException {
         Object ret = entity.getAttribute(attrName);
         if (ret == null) {
-            return null;
+            return null; 
         }
         return ret.toString();
     }
